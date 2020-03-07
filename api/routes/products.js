@@ -11,6 +11,26 @@ router.get('/', (req, res) => {
     });
 });
 
+// products posting api
+router.post('/', (req, res) => {
+    res.json({
+        msg: "products posting"
+    });
+});
+
+// products patch api
+router.patch('/', (req, res) => {
+    res.json({
+        msg: "products updated"
+    });
+});
+
+// products delete api
+router.delete('/', (req, res) => {
+    res.json({
+        msg: "products deleted"
+    });
+});
 
 // router 모듈화시켜서 out
 module.exports = router;

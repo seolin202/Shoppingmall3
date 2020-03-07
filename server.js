@@ -1,8 +1,6 @@
 // express loading
 const express = require('express');
 
-"hello my name is R"
-
 // express 실행하는 것을 app이라고 상수화
 const app = express();
 
